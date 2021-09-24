@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Форма обратной связи</title>
+</head>
+<body>
+    <main>
+    <form action="https://60376bfd5435040017722533.mockapi.io/formRej" method="post" class="form">
+
+        <h1 class="form_title">Задать вопрос</h1>
+
+        <input type="text" name="name" placeholder="Фамилия Имя Отчество *" required pattern="^[А-Яа-яЁё\s-]+$">
+        <input type="text" name="phone" placeholder="Телефон *" required pattern="^[ 0-9-+]+$">
+        <input type="email" name="email" placeholder="Email" >
+
+        <button class="form_button">Отправить запрос</button>
+        
+    </main>
+    </form>
+</body>
+</html>
